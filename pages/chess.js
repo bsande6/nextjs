@@ -68,7 +68,7 @@ function makeGame(div) {
 
         
         const [movedFrom, movedTo] = Object.entries(game.aiMove())[0];
-        game.move(movedFrom, movedTo);
+      
         gameState = game.exportJson();
 
         // update the text by clearing out the old square
